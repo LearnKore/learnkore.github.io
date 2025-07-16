@@ -1,3 +1,4 @@
+import ThemeToggle from '@/components/ThemeToggle'
 import React from 'react'
 
 function LandingPage() {
@@ -5,6 +6,7 @@ function LandingPage() {
     <div>
       <h1>Welcome</h1>
       <p>The best website</p>
+      <ThemeToggle />
     </div>
   )
 }
